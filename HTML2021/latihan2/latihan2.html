@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Heading</title>
+</head>
+<body>
+
+	<h1>Judul Artikel</h1>
+	<p>Isi Artikel</p>
+	<h2>Sub Judul</h2>
+	<p>Sub body artikel</p>
+<hr>
+
+<p>Ayo <a href="../latihan1/halaman1.html">Klik disini</a>untuk pindah halaman</p>
+
+
+<!-- List -->
+<hr>
+	<h3>To Do List</h3>
+	<ol>
+		<li>Bangun Pagi</li>
+		<li>Sarapan</li>
+		<li>Tidur Lagi</li>
+
+	</ol>
+	<ol type="A">
+		<li>Bangun Pagi</li>
+		<li>Sarapan</li>
+		<li>Tidur Lagi</li>
+
+	</ol>
+
+	<ol type="i">
+		<li>Bangun Pagi</li>
+		<li>Sarapan</li>
+		<li>Tidur Lagi</li>
+
+	</ol>
+
+
+<h3>Daftar Makanan Favorit</h3>
+	<ul type="disc">
+		<li>Nasi Goreng</li>
+		<li>Mie Goreng</li>
+		<li>Ayam</li>
+	</ul>
+
+		<ul type="square">
+		<li>Nasi Goreng</li>
+		<li>Mie Goreng</li>
+		<li>Ayam</li>
+	</ul>
+
+
+	<ul type="circle">
+		<li>Nasi Goreng</li>
+		<li>Mie Goreng</li>
+		<li>Ayam</li>
+	</ul>
+
+	<dl>
+		<dt><strong>Mati</strong></dt>
+		<dd>Gak Hidup</dd>
+		<dt> <strong>Hidup</strong></dt>
+		<dd>Gak Mati</dd>
+	</dl>
+<hr>
+
+	<ol type="i">
+		<li><a href="../latihan1/halaman1.html#topik1" target="_blank">Topik 1</a></li>
+		<li><a href="../latihan1/halaman1.html#topik2" target="_blank">Topik 2</a></li>
+		<li><a href="../latihan1/halaman1.html#topik3" target="_blank">Topik 3</a></li>
+
+	</ol>
+
+	<hr>
+
+	<a href="https://www.instagram.com/harumpundung/"><img src="logo.png" alt="Logo Harum" width="200px" title="Logo Harum"></a>
+	<img src="logo.png" alt="Logo Harum" width="20%" title="Logo Harum">
+
+	<hr>
+
+	<table border="1" cellspacing="0" cellpadding="5">
+		<thead>
+			<tr>
+				<th></th>
+				<th>Kolom 1</th>
+				<th>Kolom 2</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Baris 1</th>
+				<td>Baris 1 kolom 1</td>
+				<td>Baris 1 Kolom 2</td>
+			</tr>
+			<tr>
+				<th>Baris 2</th>
+				<td>Baris 2 kolom 1</td>
+				<td>Baris 2 Kolom 2</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+<hr>
+
+<h2>Latihan Table RowSpan dan Colspan</h2>
+
+	<table border="1" cellpadding="10" cellspacing="0">
+		<tr>
+			<td>1,1</td>
+			<td>1,2</td>
+			<td>1,3</td>
+			<td>1,4</td>
+		</tr>
+		<tr>
+			<td>2,1</td>
+			<td rowspan="2" colspan="2"></td>
+
+			<td>2,4</td>
+		</tr>
+		<tr>
+			<td>3,1</td>
+			
+			<td>3,4</td>
+		</tr>
+		<tr>
+			<td>4,1</td>
+			<td>4,2</td>
+			<td>4,3</td>
+			<td>4,4</td>
+		</tr>	
+	</table>
+
+<hr>
+
+	<form>
+		<label for="username">username</label>
+		<input type="text" id="username">
+		<br>
+		<label for="password">Password</label>
+		<input type="password" id="password">
+		<br>
+		
+		<input type="radio" id="Pria" name="Gender"><label for="Pria">Pria</label> 
+		<input type="radio" id="wanita" name="Gender"> <label for="wanita">Wanita</label>
+		<br>
+		<input type="checkbox" id="Menyanyi"><label for="Menyanyi">Menyanyi</label>
+		<input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+		<input type="checkbox" id="Renang"><label for="Renang">Renang</label>
+		<br>
+		<button type="submit">Kirim</button>
+
+	</form>
+
+</body>
+</html>

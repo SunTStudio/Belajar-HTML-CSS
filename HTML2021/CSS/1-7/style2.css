@@ -1,0 +1,43 @@
+
+.satu:link {
+	color: green;
+}
+.satu:hover {
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+}
+.satu:active {
+	color:black;
+}
+
+ul li:first-child a {
+	color: green;
+}
+
+ul li:last-child a {
+	color: green;
+	font-size: 20px;
+}
+ul li:nth-child(2n) a {
+	color: pink;
+}
+
+ul li:nth-child(odd) a:hover {
+	color: black;
+}
+
+ul li:nth-child(even) a:hover {
+	color: blue;
+}
+ul#tiga li:nth-child(1) a.dua {
+	color: pink;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+p:first-of-type {
+	color: red
+}
+p:last-of-type {
+	color: pink
+}

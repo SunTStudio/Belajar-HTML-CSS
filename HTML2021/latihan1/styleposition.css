@@ -1,0 +1,29 @@
+div {
+	height: 200px;
+	width: 200px;
+	margin: auto;
+}
+.container {
+	height: 600px;
+	width: 650px;
+	border:10px solid salmon;
+	position: relative;
+}
+.satu {
+	background-color: lightblue;
+}
+.dua {
+	background-color: lightgreen;
+	position: fixed;
+	/*fixed,absolut,relative,static */
+	top: 0;
+	right: 0;
+	height: 40px;
+	width: 100%;
+}
+.tiga {
+	background-color: salmon;
+}
+body {
+	height: 2000px;
+}

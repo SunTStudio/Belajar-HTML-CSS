@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Animation</title>
+
+	<!-- Dibawah ini dibuat dlu kalo mau pakai animasi -->
+	<!-- @keyframes identifier {
+			from {
+				[property-css]
+			}
+
+			to {
+				[property-css]
+			}
+		} -->
+
+	<!-- 
+	animation:
+		[name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state] 
+	-->
+
+
+	<style type="text/css">
+	.kotak {
+		height: 200px;
+		width: 200px;
+		background-color: salmon;
+		animation: animasikotak 3s ease infinite alternate forwards ;
+		/*rician function animasi diatas :
+		animation-name: animasikotak;
+		animation-duration: 2s;
+		animation-timing-function: ease;
+		animation-iteration-count: 2; (infinite)
+		animation-direction: reverse; (alternate/reverse)
+		animation-fill-mode: forwards;
+		animation-play-state: running; (pause/running)
+		*/
+	}
+
+	/*.kotak:hover{
+		animation: animasikotak 2s ease;
+	}*/
+
+	@keyframes animasikotak {
+		/*from {
+			width: 200px;
+		}
+
+		to {
+			width: 500px;
+		}*/
+
+
+		0% {
+			width: 200px;
+		}
+
+		50% {
+			width: 500px;
+			height: 200px;
+		}
+		100% {
+			width: 500px;
+			height: 600px;
+		}		
+	}
+
+	</style>
+
+</head>
+<body>
+	<div class="kotak"></div>
+</body>
+</html>
